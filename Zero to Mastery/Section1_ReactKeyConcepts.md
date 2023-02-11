@@ -57,3 +57,10 @@ ReactJS developed a whole new way to build front end applications.
     * the programmer/developer describes and declares what the app should look like and its current state.
     * resulted in less complexity, better code quality, and faster developer times
         * idea of building web interfaces without touching the DOM: based on the state or data of the App, just "react" to it and update display.
+2. Build websites like lego blocks
+    * idea to design websites like lego blocks and designed around the idea of reusable components.
+    * combine small components to build larger components (components containing other components)
+    * components are plain JS functions that we can write
+        * so we have the state of our app or that is any data that describes our app --> components are created based on that data --> can recieve some sort of input or attributes which are called props.
+        * returns html inside javascript called EJS (extended javascript)
+        * some data about application -> build components about of html tags that signify a component -> combine together to create final app (reusability)
