@@ -62,5 +62,29 @@ ReactJS developed a whole new way to build front end applications.
     * combine small components to build larger components (components containing other components)
     * components are plain JS functions that we can write
         * so we have the state of our app or that is any data that describes our app --> components are created based on that data --> can recieve some sort of input or attributes which are called props.
-        * returns html inside javascript called EJS (extended javascript)
+        * returns html inside javascript called JSX (extended javascript)
         * some data about application -> build components about of html tags that signify a component -> combine together to create final app (reusability)
+3. Unidirectional data flow
+    * combing state and components using JSX, React will create a virtual DOM.
+    * as the state changes, all components from top to bottom will be updated (unidirectional flow) --> from top component to lowest-level component
+    * The key takeaway here is that by having this restriction of data only being able to move down from the state of our application all the way to the DOM, and if any changes or events happen that change the state, well, we go back to the state and that state change trickles down to different components in one direction is a restriction on how data can move through our app.
+        * easier to debug code ( only have to look in the place where the data exists and where the data flows through)
+4. UI library, the rest is up to you
+    * React doesn't make assumptions about what technology stack you use.
+    * ReactJS "bots" handle all UI changes (replacing & refloating) though the main React library
+    * Different React libraries exist for different uses, interactions, and functionalities.
+    * And because of this, React was able to use this concept and have developers that wrote code for webpages, now code to build desktop applications, build VR applications, and to build mobile applications
+        * cross-platform compatibility took off with React
+        * library imports
+### How to be a great React developer?
+Remember...
+* Declarative
+* JSX
+* State
+* Props
+* Components
+* Virtual DOM
+
+1. Decide on components
+2. Decide the state and where it lives
+3. What changes when state changes?
