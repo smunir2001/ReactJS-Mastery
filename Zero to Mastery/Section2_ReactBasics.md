@@ -5,3 +5,9 @@ smunir2001@gmail.com | ReactJS Mastery | February 13th, 2023
 Creating React apps can involve a lot of files and time. Therefore, Facebook released a tool called __Create-React-App__.
 * Scaffold a basic ReactJS application to get started
 * Use npx/npm
+
+__package.json__ provides developers with the necessary different libraries and packages that this application requires to work.
+
+The __src__ folder is the entry point to the code for our React application.
+
+The __index.js__ file is the entry point of all React applications.
