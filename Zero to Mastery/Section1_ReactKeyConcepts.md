@@ -77,7 +77,7 @@ ReactJS developed a whole new way to build front end applications.
         * cross-platform compatibility took off with React
         * library imports
 ### How to be a great React developer?
-Remember...
+Remember ReactJS is...
 * Declarative
 * JSX
 * State
