@@ -10,3 +10,5 @@ smunir2001@gmail.com | ReactJS Mastery | February 8th, 2023
 ReactJS_Notes.md
 ### 1. Section 1 - React Key Concepts
 * Section1_ReactKeyConcepts.md
+### 2. Section 2 - React Basics
+* Section2_ReactBasics.md
