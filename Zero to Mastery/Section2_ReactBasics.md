@@ -11,3 +11,5 @@ __package.json__ provides developers with the necessary different libraries and 
 The __src__ folder is the entry point to the code for our React application.
 
 The __index.js__ file is the entry point of all React applications.
+
+Whatever is present in __App__ will be rendered to the __root div__ in __index.html__.
