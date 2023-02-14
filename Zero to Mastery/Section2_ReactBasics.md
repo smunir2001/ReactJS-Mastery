@@ -17,3 +17,9 @@ Whatever is present in __App__ will be rendered to the __root div__ in __index.h
 ### Components
 A component is a self-contained piece of code that returns some visual UI representation of our app.
 * Combination of HTML, CSS, and JS
+### Classes vs. hooks
+Functional components render through their return statement of HTML/JSX block of code.
+
+A class component do the same thing as functional components, just in a different way.
+
+__Local state__ or __state__ is just some information that only the specific component is aware of and can manipulate.
