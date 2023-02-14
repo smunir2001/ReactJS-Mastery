@@ -13,3 +13,7 @@ The __src__ folder is the entry point to the code for our React application.
 The __index.js__ file is the entry point of all React applications.
 
 Whatever is present in __App__ will be rendered to the __root div__ in __index.html__.
+
+### Components
+A component is a self-contained piece of code that returns some visual UI representation of our app.
+* Combination of HTML, CSS, and JS
