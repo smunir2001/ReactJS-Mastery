@@ -29,3 +29,6 @@ React will only rerender a component when the object/state changes!
 ### setState()
 Provide an object that you want to shallow-merge with your state object.
 * Whatever values you passes me in this object, I'll update the state object with the same and newer values in the current object.
+* setState() does not handle edge cases such as caring about what was initially stored in the state object
+    * format of the key:value pair can be disregarded by setState() and the shallow merge
+    * can easily shallow merge a string with an object or object with a string etc. --> want to make sure to match formats and types when shallow merging between states
