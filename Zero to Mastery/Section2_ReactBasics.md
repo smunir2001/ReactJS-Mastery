@@ -23,3 +23,9 @@ Functional components render through their return statement of HTML/JSX block of
 A class component do the same thing as functional components, just in a different way.
 
 __Local state__ or __state__ is just some information that only the specific component is aware of and can manipulate.
+
+React will only rerender a component when the object/state changes!
+* Completely new object in memory... changing values of the same object does not affect rendering.
+### setState()
+Provide an object that you want to shallow-merge with your state object.
+* Whatever values you passes me in this object, I'll update the state object with the same and newer values in the current object.
