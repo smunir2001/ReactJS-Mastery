@@ -32,3 +32,5 @@ Provide an object that you want to shallow-merge with your state object.
 * setState() does not handle edge cases such as caring about what was initially stored in the state object
     * format of the key:value pair can be disregarded by setState() and the shallow merge
     * can easily shallow merge a string with an object or object with a string etc. --> want to make sure to match formats and types when shallow merging between states
+
+A good rule of thumb as to when to use the __key__ attribute: Anything you use the __map()__ function inside of *render()*, or you have a list of the same JSX elements one after another, they need a key attribute (and CRA will warn you about it if you miss it).
