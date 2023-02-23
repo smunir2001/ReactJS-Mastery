@@ -54,3 +54,5 @@ __Appendix 1: Key Developer Concepts__
 
 ### For every HTML element, there is an equal/equivalent React element.
 JSX is a syntax extension of JavaScript... JavaScript with extended functionality!
+
+### Always filter from the original list (usually stored in the state).
