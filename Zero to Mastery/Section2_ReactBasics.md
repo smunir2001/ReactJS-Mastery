@@ -34,3 +34,20 @@ Provide an object that you want to shallow-merge with your state object.
     * can easily shallow merge a string with an object or object with a string etc. --> want to make sure to match formats and types when shallow merging between states
 
 A good rule of thumb as to when to use the __key__ attribute: Anything you use the __map()__ function inside of *render()*, or you have a list of the same JSX elements one after another, they need a key attribute (and CRA will warn you about it if you miss it).
+
+In a Single Page Application (SPA), a request will be made to a server. The server will return the HTML, CSS, and JavaScript. However, because this is a ReacJS application, it contains JavaScript which includes HTML (JSX). Now when we specify a route to a specific page, ReactJS will automatically change displays/pages by React itself (live on the browser), without the need to communicate with the server for page-related code.
+* Get the entire application JavaScript bundle by the server... instead of making separate requests for each page/change on the current page
+## Lifecycle Methods
+Control when you want ReactJS to run code when a component gets mounted (placed onto the page/doc).
+* Only happens once throughout a component's life
+* Can only be remounted when it gets unmounted (completely taken off the page/doc)
+## Promises
+__Appendix 1: Key Developer Concepts__
+## Constructor, ComponentDidMount(), Render()
+1. Constructor runs first.
+    * Just initialize the state
+2. Render runs second
+    * Determines what to show initially
+3. ComponentDidMount()
+    * The moment our component is mounted, componentDidMount() gets called.
+        * Fetching some JSON, state is updated (setState) --> rerender!!!
