@@ -51,3 +51,6 @@ __Appendix 1: Key Developer Concepts__
 3. ComponentDidMount()
     * The moment our component is mounted, componentDidMount() gets called.
         * Fetching some JSON, state is updated (setState) --> rerender!!!
+
+### For every HTML element, there is an equal/equivalent React element.
+JSX is a syntax extension of JavaScript... JavaScript with extended functionality!
