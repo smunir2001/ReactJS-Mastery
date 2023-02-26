@@ -1,0 +1,17 @@
+.header {
+    margin: 0;
+    line-height: 60%;
+    background-color: #333333;
+    padding: 2%;
+}
+
+.header h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.header p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
