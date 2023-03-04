@@ -3,6 +3,7 @@
     line-height: 60%;
     background-color: #333333;
     padding: 2%;
+    border-bottom: 5px solid #ff9900;
 }
 
 .header h1 {
